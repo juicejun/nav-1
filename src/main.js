@@ -70,7 +70,7 @@ $(document).on('keypress',(e)=>{
     const {key} = e
     // const key = e.key
     for (let i = 0;i < hashMap.length; i++){
-        if(hashMap[i].logo.toUpperCase() === key){
+        if(hashMap[i].logo.toLowerCase() === key){
             window.open(hashMap[i].url)
         }
     }

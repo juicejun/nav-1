@@ -180,10 +180,10 @@ $(document).on('keypress', function (e) {
   var key = e.key; // const key = e.key
 
   for (var i = 0; i < hashMap.length; i++) {
-    if (hashMap[i].logo.toUpperCase() === key) {
+    if (hashMap[i].logo.toLowerCase() === key) {
       window.open(hashMap[i].url);
     }
   }
 });
 },{}]},{},["epB2"], null)
-//# sourceMappingURL=main.7a27732e.js.map
+//# sourceMappingURL=main.40fbc012.js.map
